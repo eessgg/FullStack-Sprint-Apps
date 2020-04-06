@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+* {
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.timer-box {
+  width: 250px;
+  margin: 48px auto;
+  text-align: center;
+}
+
+.clock {
+  margin: 24px auto;
+  font-size: 2rem;
+  padding: 24px;
+  border-radius: 6px;
+    background-color: #f1c40f;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.today {
+  padding-bottom: 48px;
+}
