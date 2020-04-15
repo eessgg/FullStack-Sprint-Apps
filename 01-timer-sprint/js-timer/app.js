@@ -37,6 +37,6 @@
       if(clock.minutes < 10) {
         clockDivMins.innerHTML = '0' + clock.minutes;
       }
-      if(clock.seconds < 10) { clockDivMins.innerHTML='0' + clock.seconds; }
+      if(clock.seconds < 10) { clockDivMins.innerHTML ='0' + clock.seconds; }
       
     }

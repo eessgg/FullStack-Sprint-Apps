@@ -1,0 +1,26 @@
+{
+  "park1": {
+    "name": "Alto Cariri",
+    "location": "Bahia",
+    "description": "Um dos últimos fragmentos de Mata Atlântica do sudoeste da Bahia, também o único lugar onde ainda ocorre o muriqui-do-norte neste estado.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Alto_Cariri_2.jpg/1280px-Alto_Cariri_2.jpg"
+  }, 
+  "park2": {
+    "name": "Anavilhanas",
+    "location": "Amazonas",
+    "description": "Um dos mais internacionalmente conhecidos parques amazônicos, preserva importantes ecossistemas ao longo do rio Negro, próximo à cidade de Manaus.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Anavilhanas2.jpg/1280px-Anavilhanas2.jpg"
+  }, 
+  "park3": {
+    "name": "Aparados da Serra",
+    "location": "Rio Grande do Sul / Santa Catarina",
+    "description": "Localizado na Serra Gaúcha, preserva consideráveis porções da Mata Atlântica, e apresenta inúmeros paredões de até 700 m de altura, que conferem notável beleza cênica ao parque.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Itaimb%C3%A9zinho_Canyon_2006.jpg/1280px-Itaimb%C3%A9zinho_Canyon_2006.jpg"
+  },
+  "park4": {
+    "name": "Anavilhanas",
+    "location": "Amazonas",
+    "description": "Um dos mais internacionalmente conhecidos parques amazônicos, preserva importantes ecossistemas ao longo do rio Negro, próximo à cidade de Manaus.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Anavilhanas2.jpg/1280px-Anavilhanas2.jpg"
+  }
+}
