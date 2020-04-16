@@ -10,7 +10,7 @@ body {
   font-family: 'Molengo',
     sans-serif;
   font-size: 1rem;
-  background: rgb(0, 9, 48);
+  background: rgb(34, 34, 34);
   color: #fff;
 }
 
@@ -18,29 +18,40 @@ body {
   max-width: 1080px;
   width: 100%;
   margin: 48px auto;
-  display: grid;
   text-align: center;
-  grid-template-columns: 300px 300px;
-  grid-gap: 24px;
-  // display: flex;
-  // justify-content: space-evenly;
-  // flex-wrap: wrap;
 }
 
 img {
   width: 100%;
 }
 
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
 .image-box {
+  background-color: palegreen;
+
   .controls {
     padding: 12px;
 
     input {
       padding: 4px 8px;
-      background: rgb(114, 123, 161);
+      background: rgb(114, 154, 161);
+      color: #000;
       border-radius: 3px;
       border: none;
       font-weight: bold;
+      font-size: 0.6rem;
+      cursor: pointer;
+      outline: none;
+
+      &:active {
+        background: rgb(28, 68, 77);
+         color: rgb(114, 154, 161);
+      }
     }
   }
 }
@@ -92,5 +103,9 @@ img {
 
 .flip-vertical .image-inner {
   transform: rotateX(180deg);
+}
+
+.flip-rotate .image-inner {
+  transform: rotate(180deg);
 }
 
