@@ -1,32 +1,30 @@
 const imageContainer = document.querySelectorAll(".image-container");
 const btnFlip = document.querySelectorAll('[data-js="buttonflip"]');
-
 const url = "./data.json";
 
 btnFlip.forEach(function (btn) {
   const parent = btn.parentElement.previousElementSibling;
   btn.addEventListener("click", function () {
-  if(btn.value === "HORIZONTAL") {
-    parent.classList.toggle("flip-horizontal");
-    setTimeout(function () {
-      parent.classList.remove("flip-horizontal");
-    }, 1000);
-  }
-  if (btn.value === "VERTICAL") {
-    parent.classList.toggle("flip-vertical");
-    setTimeout(function () {
-      parent.classList.remove("flip-vertical");
-    }, 1000);
-  }
-  if (btn.value === "ROTATE") {
-    parent.classList.toggle("flip-rotate");
-    setTimeout(function () {
-      parent.classList.remove("flip-rotate");
-    }, 1000);
-  }  
+    if (btn.value === "HORIZONTAL") {
+      parent.classList.toggle("flip-horizontal");
+      setTimeout(function () {
+        parent.classList.remove("flip-horizontal");
+      }, 1000);
+    }
+    if (btn.value === "VERTICAL") {
+      parent.classList.toggle("flip-vertical");
+      setTimeout(function () {
+        parent.classList.remove("flip-vertical");
+      }, 1000);
+    }
+    if (btn.value === "ROTATE") {
+      parent.classList.toggle("flip-rotate");
+      setTimeout(function () {
+        parent.classList.remove("flip-rotate");
+      }, 1000);
+    }
   });
 });
-
 
 function fetchJSON(url) {
   fetch(url)

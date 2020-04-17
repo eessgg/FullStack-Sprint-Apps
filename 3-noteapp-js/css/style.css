@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+
+body {
+  height: 100%;
+  font-family: 'PT Sans',
+  sans-serif;
+  background-color: #333;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background: #fff;
+  display: flex;
+}
+
+
+.tasks-app {
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 48px;
+}
+
+
+
+.task-input-box {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 60px;
+}
+
+.task-input-box input,
+.task-input-box button {
+  padding: 12px;
+  border-radius: 6px;
+}
+
+.task-input-box input {
+  margin-right: 8px;
+  font-size: 16px;
+  border: 2px solid rgb(170, 170, 170);
+}
+
+.task-input-box button {
+  background-color: rgb(56, 83, 172);
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+
+.tasks-main-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 12px;
+  margin: 48px 0 0 0;
+}
+
+
+/* cards */
+.task-card {
+  position: relative;
+  border: 3px solid rgb(101, 190, 190);
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+
+  color: rgb(82, 82, 82);
+}
+.task-card .header {
+  background: rgb(101, 190, 190);
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 100;
+  vertical-align: middle;
+}
+.task-card .header span {
+align-items: center;    vertical-align: middle;
+}
+.task-card .header i {
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;   align-items: center;
+}
+.task-card .body {
+  padding: 16px 10px;
+  font-weight: 600;
+  display: flex;
+}
+
+.task-card .body i {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.task-card .body .sentence {
+  line-height: 1.6rem;
+  width: 100%;
+}
+.task-card .body .sentence:before {
+  content: '-';
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  margin-right: 5px;
+  color: rgb(101, 190, 190);
+  background: rgb(101, 190, 190);
+  border-radius: 3px;
+}
+
